@@ -25,9 +25,8 @@ export const createPost = async (req,res) => {
     }catch (e) {
         res.status(409).json({message:e.message});
 
-
     }
 
-
-
 }
+
+
